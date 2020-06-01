@@ -7,7 +7,7 @@ block_return_values = []
  block_return_values << yield(collection[i])
     i = i + 1 
   end
-  my_all?([1,2,3]) {|i| i < 2}
+  
 
 if block_return_values.include? 
   (false)
